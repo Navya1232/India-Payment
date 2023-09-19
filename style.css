@@ -49,3 +49,18 @@ input[type="Submit"] {
 input[type="submit"]:hover{
     background-color: #9bb40b;
 }
+
+.hbb{
+    background-color: darkkhaki;
+    color: #1e8b5e;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 80px;
+}
+    
+
+
+.hbb :hover{
+color: aqua;
+cursor:progress ;
+}
