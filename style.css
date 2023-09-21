@@ -55,12 +55,33 @@ input[type="submit"]:hover{
     color: #1e8b5e;
     text-align: center;
     font-weight: 500;
-    border-radius: 80px;
+    border-radius: 30px;
 }
     
 
 
 .hbb :hover{
 color: aqua;
-cursor:progress ;
+cursor:progress;
+}
+
+
+
+
+    img{ 
+        height: 25% ;
+        width: 25%;
+        place-items: center;
+        
+        
+        
+     }
+
+.i{
+    color: crimson;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 40px;
+    
 }
