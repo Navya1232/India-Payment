@@ -50,6 +50,21 @@ input[type="submit"]:hover{
     background-color: #9bb40b;
 }
 
+img {
+    size: 60px;
+    width: 35%;
+    height: 35%;
+}
+
+.deer{
+    text-align: center;
+}
+
+.what{
+    text-align: center;
+    color: chocolate;
+}
+
 .hbb{
     background-color: darkkhaki;
     color: #1e8b5e;
@@ -58,30 +73,3 @@ input[type="submit"]:hover{
     border-radius: 30px;
 }
     
-
-
-.hbb :hover{
-color: aqua;
-cursor:progress;
-}
-
-
-
-
-    img{ 
-        height: 25% ;
-        width: 25%;
-        place-items: center;
-        
-        
-        
-     }
-
-.i{
-    color: crimson;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    left: 40px;
-    
-}
