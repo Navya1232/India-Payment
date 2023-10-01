@@ -62,11 +62,55 @@ img {
 
 .what{
     text-align: center;
-    color: chocolate;
+    color: olive;
 }
 
+/** hash **/
+.Hathi{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+   }
+
+.box{
+    height: 410px;
+    width: 23%;
+    background-color: white;
+    padding: 20px, 0px, 15px ;
+    margin-top: 15px;
+ }
+
+ .box:hover{
+  background-color:#febd68 ;
+  cursor:pointer;
+
+ }
+
+ .box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+ }
+
+ .box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
+
+ .ro{
+    font-weight: 300;
+    text-align: center;
+    color: crimson;
+    padding:1% ;
+    font-size: 150%;
+ }
+
+
 footer{
-    background-color: darkkhaki;
+    background-color: rgb(15, 153, 112);
     color: #00ff95;
     text-align: center;
     font-weight: 500;
