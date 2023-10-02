@@ -4,6 +4,7 @@
     <link rel="shortcut icon" type="x-icon" href="Add a heading.jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <title>Payment</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,7 +12,9 @@
 <body>
     <div class="container">
     <form action="" method="get">
-        <h1 class="main_heading">Payment Form</h1>
+        <header>
+        <div class="main_heading"></div>
+        </header>
         <hr>
         <h2>User Information</h2>
         <p>Name: <input type="text" name="name" placeholder="Enter your name" required></p>
@@ -63,38 +66,13 @@
        
        
        <hr>
-       
-        
-       <div class="Hathi">
-            <div class="box1 box">
-           <div class="box-content">
-            <h2>Drawing</h2> 
-            <div class="box-img" style="background-image: url('navya-1.jpg');"></div> 
-           </div>  
-            </div>
-            <div class="box2 box">
-                <div class="box-content">
-                    <h2>Alphabet</h2> 
-                    <div class="box-img" style="background-image: url('navya-2.jpg');"></div>
-                   </div>  
-            </div>
-            <div class="box3 box">
-                <div class="box-content">
-                    <h2>Maths</h2> 
-                    <div class="box-img" style="background-image: url('navya-3.jpg');"></div>
-                   </div>  
-            </div>
-            <div class="box4 box">
-                <div class="box-content">
-                    <h2>Numbers</h2> 
-                    <div class="box-img" style="background-image: url('navya-4.jpg');"></div>
-                   </div>  
-            </div>
-       </div>
-
-       <div class="ro">
-          Books for the children 
-       </div>
+       <div class="carousel"
+  data-flickity='{ "wrapAround": true }'>
+  <div class="carousel-cell"><img src="navya-1.jpg"></div>
+  <div class="carousel-cell"><img src="navya-2.jpg"></div>
+  <div class="carousel-cell"><img src="navya-3.jpg"></div>
+  <div class="carousel-cell"><img src="navya-4.jpg"></div>
+</div>
 
 
 
@@ -107,6 +85,8 @@
                 
               </div>
         <div>
+        </footer>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
             
 </body>
 </html>
