@@ -75,10 +75,35 @@ img {
 }
 
 .what{
-    text-align: center;
-    color: olive;
+text-align: center;
 }
 
+.what a{
+
+    background-color: rgb(125 125 125 / 25%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+
+}
+
+.what a:hover{
+    background-color: rgb(30 30 30 / 25%)
+
+}
+
+.yt-handle{
+color: #ff0000;
+}
+
+.tw-handle{
+    color:#1da1f2;
+}
+
+.fc-handle{
+    color: #0165E1;
+}
 
 footer{
     background-color: rgb(15, 153, 112);
@@ -89,21 +114,33 @@ footer{
 }
   h3{
     color: rgb(245, 118, 0);
-  }  
-
-  /** cell number **/
+  } 
   
-  .carousel {
-    width: 100%;
-    margin-right: 1px;
+  .carousel-cell {
+    width: 66%;
+    margin-right: 10px;
     border-radius: 5px;
-align-items: center;
-justify-content: center;
-background-position: 70%;
-}
+    }
 
-.carousel-cell img{
-  max-width: 100%;
-  max-height: 100%;
+    .iu{
+        font-size: 1rem;
+        font-weight: 1000;
+        color: #bedf03;
+        text-align: center;
+        justify-content: center;
 
-}
+    }
+
+    .profile_image{
+        border-radius: 50%;
+    }
+
+    .profile-name{
+        font-size: 2rem;
+        font-weight: 900;
+        letter-spacing: 1px;
+        word-spacing: 10px;
+        text-transform: uppercase;
+        margin: 20px 0px 30px 0px;
+    }
+
